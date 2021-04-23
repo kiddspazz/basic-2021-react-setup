@@ -5,7 +5,7 @@
   "main": "y",
   "repository": "https://github.com/kiddspazz/achievements-component.git",
   "author": "kiddspazz",
-  "license": "no license",
+  "license": "UNLICENSED",
   "private": false,
   "scripts": {
     "start": "parcel index.html"
