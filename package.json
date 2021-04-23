@@ -1,0 +1,10 @@
+{
+  "name": "y",
+  "version": "2.0.0",
+  "description": "div for displaying achievements in bodyspace",
+  "main": "y",
+  "repository": "https://github.com/kiddspazz/achievements-component.git",
+  "author": "kiddspazz",
+  "license": "no license",
+  "private": false
+}
