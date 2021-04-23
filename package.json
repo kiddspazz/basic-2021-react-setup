@@ -8,7 +8,7 @@
   "license": "UNLICENSED",
   "private": false,
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html --https --open"
   },
   "dependencies": {
     "react": "^17.0.2",
