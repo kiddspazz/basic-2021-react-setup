@@ -1,13 +1,13 @@
-import React from "react";
-import { render, unmountComponentAtNode } from "react-dom";
-import { act } from "react-dom/test-utils";
+import React from 'react';
+import { render, unmountComponentAtNode } from 'react-dom';
+import { act } from 'react-dom/test-utils';
 
-import App from '../';
+import App from '..';
 
 let container = null;
 beforeEach(() => {
   // setup a DOM element as a render target
-  container = document.createElement("div");
+  container = document.createElement('div');
   document.body.appendChild(container);
 });
 
@@ -18,9 +18,9 @@ afterEach(() => {
   container = null;
 });
 
-it("renders \"Hello World!\"", () => {
+it('renders "Hello World!"', () => {
   act(() => {
     render(<App />, container);
   });
-  expect(container.textContent).toBe("Hello World!");
+  expect(container.textContent).toBe('Hello World!');
 });
